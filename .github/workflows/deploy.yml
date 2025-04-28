@@ -17,3 +17,4 @@ jobs:
     - run: echo "{{ secrets.DOCKER_HUB_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_HUB_LOGIN }}" --password-stdin
  
     - run: docker push  pankajdocker1977/next-js-app:latest
+    
